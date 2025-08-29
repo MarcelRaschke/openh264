@@ -5,7 +5,7 @@
 # the results will be left in /tmp/openH264
 # have a look at log file and if the hash match the "Fluffy got" hashes
 
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 MAINTAINER Cullen Jennings <fluffy@cisco.com>
 RUN apt-get update
 RUN apt-get upgrade -y
